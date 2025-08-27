@@ -8,9 +8,15 @@ export default function Footer() {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           {/* Brand */}
-          <p className="text-lg font-semibold text-center md:text-left">
-            © {new Date().getFullYear()} USNow360. All rights reserved.
-          </p>
+<p className="text-sm text-center text-gray-600 md:text-base md:text-left">
+  © 2025 – {new Date().getFullYear()}{" "}
+  <span className="font-bold text-transparent bg-gradient-to-r from-red-700 to-red-500 bg-clip-text">
+    HotTopicsHub
+  </span>
+  . All rights reserved.
+</p>
+
+
 
           {/* Links */}
           <nav className="flex flex-wrap justify-center mt-4 space-x-4 md:mt-0">
